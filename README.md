@@ -1,30 +1,10 @@
-# My Vite + React Template
+# Tic Tac Toe
 
-A pre-configured Vite + React template with ESLint, Prettier, and SWC.
+## Реализовать игру «Крестики-Нолики»:
 
----
-
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:microbjj/vite-react-template.git
-   cd <your-project-folder>
-   ```
-
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-    ```bash
-    npm run dev
-    ```
-
-## Scripts
-
-- npm run dev: Start the development server.
-- npm run build: Build for production.
-- npm run lint: Run ESLint.
-- npm run format: Format code with Prettier.
+- игровое поле — 3х3 клетки;
+- над полем информация — чей текущий ход (крестика или нолика) / информация о победе одной из сторон или ничья;
+- при клике на клетку в ней должен отрисовываться символ стороны, у которой был текущий ход (крестик или нолик);
+- если 3 одинаковых символа размещается в одну линию (горизонтально, вертикально или по диагонали), то остановить игру и сообщить о победе крестика или нолика;
+- реализовать кнопку «Начать заново», при клике на которую поле будет очищаться и игра начнётся сначала;
+- дизайн на усмотрение разработчика.
